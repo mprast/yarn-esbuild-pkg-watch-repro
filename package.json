@@ -1,0 +1,16 @@
+{
+  "name": "yarn-esbuild-pkg-watch-repro",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mprast/yarn-esbuild-pkg-watch-repro.git",
+  "author": "Matthew Prast <mprast@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@yarnpkg/esbuild-plugin-pnp": "^1.0.0-rc.2",
+    "esbuild": "^0.12.1"
+  }
+}
